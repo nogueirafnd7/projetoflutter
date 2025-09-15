@@ -155,10 +155,10 @@ class PersonagemDetailPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
-                    Icons.image,
-                    size: 80,
-                    color: Colors.pink.shade400,
+                  Image.asset(
+                    personagem.imagePath,
+                    height: 200,
+                    fit: BoxFit.cover,
                   ),
                   const SizedBox(height: 8),
                   Text(

@@ -107,7 +107,7 @@ class HomeScreen extends StatelessWidget {
                 _buildMenuButton(
                   context,
                   'Personagens',
-                  "assets/personagens.png",
+                  "assets/images/personagens.png",
                   'Conheça Carrie, Charlotte, Miranda e Samantha',
                   () => Navigator.push(
                     context,
@@ -119,7 +119,7 @@ class HomeScreen extends StatelessWidget {
                 _buildMenuButton(
                   context,
                   'Itens',
-                  "assets/itens.png",
+                  "assets/images/itens.png",
                   'Sapatos, drinks e objetos icônicos',
                   () => Navigator.push(
                     context,
@@ -130,7 +130,7 @@ class HomeScreen extends StatelessWidget {
                 _buildMenuButton(
                   context,
                   'Missões',
-                  "assets/missoes.png",
+                  "assets/images/missoes.png",
                   'As jornadas e desafios das personagens',
                   () => Navigator.push(
                     context,
@@ -142,7 +142,7 @@ class HomeScreen extends StatelessWidget {
                 _buildMenuButton(
                   context,
                   'Cidades',
-                  "assets/cidades.png",
+                  "assets/images/cidades.png",
                   'Os cenários que marcaram a série',
                   () => Navigator.push(
                     context,
